@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+ body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://picsum.photos/200/300/?blur');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+button:hover, a:hover{
+   color:aqua;
+   background-color: antiquewhite; 
+   box-shadow: 4px 15px 10px -10px rgba(31, 31, 31, 0.8);
+  transition: all 0.5s ease; 
+  border-radius: 10px;
+}
+
+a:visited{
+  color:lightcoral;
+}
+/* Section 1 */
+.Section1{
+  padding-top: 6%;
+}
+.Section1 img{
+    border: 10px solid #05427B;
+    border-radius: 0px 86px;
+    box-shadow: 4px 15px 10px -10px rgba(31, 31, 31, 0.8);
+    transition: all 0.5s ease; 
+    padding-left:5%; 
+}
+/* Section 2 */
+.Section2{
+  padding-top: 6%;
+}
+.Section2 .zoom:hover {
+  color:aqua;
+  background-color: antiquewhite; 
+  box-shadow: 4px 15px 10px -10px rgba(31, 31, 31, 0.8);
+ transition: all 0.5s ease; 
+ border-radius: 10px;
+}
+.Section2 .Service_box{
+  
+background: #F5F5F5;
+border: 1px solid #00749A;
+border-radius: 20px;
+}
+/* Section 3 */
+.Section3{
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.Section3 .card_s{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #0B7C4F;
+  
+}
+.Section3 p{
+  padding: 2%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+  color: #767373;
+
+
+}
+
+.Section3 .zoom:hover {
+  color:aqua;
+  background-color: antiquewhite; 
+  box-shadow: 4px 15px 10px -10px rgba(31, 31, 31, 0.8);
+ transition: all 0.5s ease; 
+ border-radius: 10px;
+}
+
+/* common */
+.common-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 50px;
+}
+.common-title h2{
+margin-bottom: 0px;}
+
+.common-underline{
+  border: 3px solid #00749A;;
+width: 139px;
+}
